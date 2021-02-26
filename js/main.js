@@ -7,7 +7,4 @@ if (firstname == null || firstname == "" ) {
 else {
     alert("Bonjour" + " " + firstname + " " + "comment aller vous ?, pret à jouer ?" );
 }
-var choiceplayer = ["Pierre", "Feuille", "Ciseaux"];
-    console.log(choiceplayer[0]);
-    console.log(choiceplayer[1]);
-    console.log(choiceplayer[2]);
+var choixDuJoueur = prompt("faite votre choix : Pierre, Feuille, Ciseaux ?"); 
